@@ -10,7 +10,9 @@ function toUpper(text) {
 
 function myFunction() {
     document.getElementById("demo").innerHTML = "GET RICK ROLLED NERD! >:p";  
-    //document.getElementById("buttonclick").innerHTML = "YOU CLICKED ME!" 
+    document.getElementsByClassName("buttonclick").innerHTML = src='styles/assets/rick-roll-rick-rolled.gif';
+    
+
 }//Funtion will display string
 //Ivoke image and text elements.
 console.log(document.getElementById("demo"))

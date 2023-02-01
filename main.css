@@ -1,3 +1,12 @@
+body {
+	overflow: hidden;
+	background: #aeeecf;
+}
+
 div.main img{
     display: none;
 }
+
+/*trying to target the image/
+
+
