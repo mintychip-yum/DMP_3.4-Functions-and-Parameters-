@@ -9,13 +9,42 @@ function toUpper(text) {
 
 
 function myFunction() {
-    document.getElementById("demo").innerHTML = "GET RICK ROLLED NERD! >:p";  
-    document.getElementsByClassName("buttonclick").innerHTML = src='styles/assets/rick-roll-rick-rolled.gif';
-    
+    document.getElementsByClassName("main").innerHTML = "GET RICK ROLLED NERD! >:p";  
 
 }//Funtion will display string
 //Ivoke image and text elements.
-console.log(document.getElementById("demo"))
+console.log(document.getElementById("main"))
+
+
+//THIS IS AN EXAMPLE I FOUND ONLINE THAT IM ALSO TESTING!
+function show() {
+ 
+    /* Access image by id and change
+    the display property to block*/
+    document.getElementById('rickgif')
+            .style.display = "block";
+
+    document.getElementById('rickbutton')
+            .style.display = "none";
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
