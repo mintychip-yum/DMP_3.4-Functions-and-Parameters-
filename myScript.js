@@ -13,11 +13,11 @@ function myFunction() {
     //document.getElementById("buttonclick").innerHTML = "YOU CLICKED ME!" 
 }//Funtion will display string
 //Ivoke image and text elements.
+console.log(document.getElementById("demo"))
 
 
 
-
-function myFunction(text) {
+function clicked() {
     let text = document.getElementById("answer").innerHTML;
     document.getElementById("answer").innerHTML =
     text.replace("Who's a silly goose?","Youre a silly goose!");
@@ -33,8 +33,8 @@ const person= {
     name: "Rick Roll",
     age: 57,
     ethnicity: "White",
-    occupation: "Singer"
-    hair color: "Ginger",
+    occupation: "Singer",
+    hair: "Ginger",
 }
 //Object w/ multiple properties
 
