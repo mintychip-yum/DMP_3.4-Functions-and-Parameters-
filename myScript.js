@@ -9,11 +9,10 @@ function toUpper(text) {
 
 
 function myFunction() {
-    document.getElementsByClassName("main").innerHTML = "GET RICK ROLLED NERD! >:p";  
+    
 
-}//Funtion will display string
-//Ivoke image and text elements.
-console.log(document.getElementById("main"))
+}
+
 
 
 //THIS IS AN EXAMPLE I FOUND ONLINE THAT IM ALSO TESTING!
@@ -27,23 +26,11 @@ function show() {
     document.getElementById('rickbutton')
             .style.display = "none";
 
+    document.getElementById('demo').innerHTML = "GET RICK ROLLED NERD! >:p";  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Funtion will display event that will invoke the strings from the function
+//Ivoke image gif and text elements.
+console.log(document.getElementById("main"))
 
 
 
@@ -52,10 +39,10 @@ function clicked() {
     let text = document.getElementById("answer").innerHTML;
     document.getElementById("answer").innerHTML =
     text.replace("Who's a silly goose?","Youre a silly goose!");
-} //This is a javascript string method
-// When button is clicked text should be replaced to "Youre a silly goose!"
+} 
 console.log(document.getElementById("answer"));
-
+//This is a javascript string method
+// When button is clicked text should be replaced to "Youre a silly goose!"
 
 
 
